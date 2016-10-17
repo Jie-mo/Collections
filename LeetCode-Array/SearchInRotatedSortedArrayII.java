@@ -2,6 +2,7 @@
 //we still can't decide whether target falls at some position between mid and start or not,
 //cuz there would be some elements existing between mid and start
 //if(array[mid] == array[start]) start++;
+//O(n), S(1)
 public class SearchInRotatedSortedArrayII {
     int[] array;
     public SearchInRotatedSortedArrayII(int[] array) {
