@@ -15,10 +15,10 @@ public class SearchInRotatedSortedArray {
         while(start <= end) {
             mid = (end + start) >> 1;
             if(array[mid] == target) {
-                return index;
+                return mid;
             } 
             
-            if(array[start] < array[mid]) {
+            if(array[start] <= array[mid]) {
                 if(target < array[mid] && target >= array[start])
                     end = mid - 1;
                 else 
