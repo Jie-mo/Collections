@@ -18,7 +18,7 @@ public class SearchInRotatedSortedArray {
                 return index;
             } 
             
-            if(array[start] < array[mid]) {
+            if(array[start] <= array[mid]) {
                 if(target < array[mid] && target >= array[start])
                     end = mid - 1;
                 else 
