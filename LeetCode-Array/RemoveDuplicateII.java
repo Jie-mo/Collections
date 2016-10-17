@@ -1,4 +1,4 @@
-
+//duplicates are allowed at most twice, O(n), S(1)
 public class RemoveDuplicateII {
     int[] array;
     int index = 2;
