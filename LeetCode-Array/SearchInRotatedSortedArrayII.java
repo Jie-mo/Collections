@@ -38,7 +38,7 @@ public class SearchInRotatedSortedArrayII {
                 else
                     end = mid - 1;
             } else {
-                start++;
+                start++; //the worst situation: traverse the list
             }
         }
         return false;
