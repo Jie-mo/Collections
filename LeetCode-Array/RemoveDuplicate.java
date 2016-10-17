@@ -1,4 +1,4 @@
-// remove duplicates from sorted array
+// remove duplicates from sorted array, O(n), S(1)
 public class RemoveDuplicate {
     int[] array;
     int index = 0;
