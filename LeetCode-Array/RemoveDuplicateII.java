@@ -7,7 +7,7 @@ public class RemoveDuplicateII {
         this.array = array;
     }
     
-    public int solute() {
+    public int solve() {
         int len =array.length;
         if(len <= 2)
             return index;
