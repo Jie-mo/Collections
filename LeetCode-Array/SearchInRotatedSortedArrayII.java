@@ -1,5 +1,5 @@
 //If duplicates are allowed, e.g. 1,3,1,1,1, when array[mid] = array[start], 
-//we still can't decide whether target falls at some position between mid and start or not,
+//we still can't decide whether target doesn't fall at some position between mid and start or not,
 //cuz there would be some elements existing between mid and start
 //if(array[mid] == array[start]) start++;
 //O(n), S(1)
